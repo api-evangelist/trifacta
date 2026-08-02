@@ -1,0 +1,20 @@
+generated: '2026-07-21'
+method: searched
+source: https://pypi.org/pypi/trifacta/json
+packages:
+- language: python
+  registry: pypi
+  name: trifacta
+  version: 8.5.1
+  url: https://pypi.org/project/trifacta/
+  install: pip install trifacta
+  summary: Python SDK for Trifacta
+  author: Trifacta Inc
+  releases: 14
+  official: true
+notes: >-
+  The @trifacta/* scope on npm (e.g. @trifacta/nunjucks, @trifacta/sqlite3,
+  @trifacta/passport-azure-ad) consists of republished/forked open-source utility
+  libraries used internally, not first-party client SDKs, so they are not listed as
+  official SDKs. Trifacta's REST API is otherwise consumed directly over HTTP or via
+  the first-party Python SDK above.

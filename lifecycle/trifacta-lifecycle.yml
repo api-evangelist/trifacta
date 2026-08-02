@@ -1,0 +1,31 @@
+generated: '2026-07-21'
+method: searched
+source: https://api.trifacta.com/
+summary: >-
+  Trifacta publishes versioned REST API reference per product edition from
+  api.trifacta.com. The self-managed Enterprise edition is version-pinned; the cloud
+  editions (Google Cloud Dataprep, Designer Cloud SaaS) track a rolling cloud release.
+  The brand was acquired by Alteryx (2022) and is now Designer Cloud powered by
+  Trifacta; no dedicated public status page or formal deprecation-policy page was
+  found under the trifacta.com domain during this pass.
+editions:
+- name: Google Cloud Dataprep
+  reference: https://api.trifacta.com/dataprep-enterprise-cloud22/index.html
+  release: cloud22
+- name: Designer Cloud powered by Trifacta (SaaS)
+  reference: https://api.trifacta.com/saas-enterprise-cloud22/index.html
+  release: enterprise-cloud22
+- name: Designer Cloud powered by Trifacta - Enterprise (Self-Managed)
+  reference: https://api.trifacta.com/ee/9.7/index.html
+  current: v9.7
+versioning:
+  scheme: uri-path
+  current: v4
+  notes: REST endpoints are served under the /v4/ path per the Trifacta API reference.
+status_page: null
+deprecation:
+  policy_url: null
+  sunset_header: null
+sla:
+  url: null
+deprecated_operations: []

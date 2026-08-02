@@ -1,0 +1,20 @@
+# Trifacta
+
+> Trifacta is a data wrangling and data preparation platform for collaboratively profiling, structuring, cleaning, enriching, and pipelining data for analytics and machine learning. Acquired by Alteryx in 2022, it is now Designer Cloud powered by Trifacta and underpins Google Cloud Dataprep. Trifacta exposes a versioned REST API across its editions and ships a first-party Python SDK.
+
+## API
+- [Trifacta REST API reference](https://api.trifacta.com/): Endpoint reference for flows, recipes, datasets, jobs (jobGroups), and connections across all product editions.
+- [Designer Cloud SaaS API reference](https://api.trifacta.com/saas-enterprise-cloud22/index.html): REST reference for the Designer Cloud SaaS edition.
+- [Enterprise (Self-Managed) API reference](https://api.trifacta.com/ee/9.7/index.html): REST reference for the self-managed Enterprise v9.7 edition.
+- [Google Cloud Dataprep API reference](https://api.trifacta.com/dataprep-enterprise-cloud22/index.html): REST reference for the Google Cloud Dataprep edition.
+
+## Docs
+- [Trifacta / Alteryx documentation](https://docs.trifacta.com/): Product documentation portal.
+- [Trifacta is now Alteryx Designer Cloud](https://www.alteryx.com/about-us/trifacta-is-now-alteryx-designer-cloud): Acquisition and product-rebrand overview.
+
+## SDKs
+- [Python SDK (PyPI: trifacta)](https://pypi.org/project/trifacta/): First-party Python SDK for automating Trifacta data-preparation workflows (pip install trifacta).
+
+## Legal
+- [Privacy Policy](https://www.trifacta.com/privacy-policy/)
+- [Terms of Use](https://www.trifacta.com/terms-conditions/)

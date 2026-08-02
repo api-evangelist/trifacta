@@ -1,0 +1,27 @@
+generated: '2026-07-21'
+method: searched
+host: https://api.trifacta.com
+notes: >-
+  Probed the /.well-known/ discovery surface on the Trifacta API and web hosts. No
+  documents were served (the API host is a static S3-backed reference site returning
+  403 AccessDenied for non-existent keys; the marketing host returns 404). Absence is
+  recorded as valid data; no WellKnown or SecurityTxt pointer is emitted.
+documents:
+- path: /.well-known/security.txt
+  host: https://www.trifacta.com
+  status: 404
+- path: /.well-known/security.txt
+  host: https://api.trifacta.com
+  status: 403
+- path: /.well-known/openid-configuration
+  host: https://api.trifacta.com
+  status: 403
+- path: /.well-known/oauth-authorization-server
+  host: https://api.trifacta.com
+  status: 403
+- path: /.well-known/api-catalog
+  host: https://api.trifacta.com
+  status: 403
+- path: /.well-known/ai-plugin.json
+  host: https://api.trifacta.com
+  status: 403

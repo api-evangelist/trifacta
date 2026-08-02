@@ -1,22 +1,104 @@
 aid: trifacta
 name: Trifacta
-description: Trifacta is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Trifacta is a data wrangling and data preparation platform that lets analysts and
+  data engineers collaboratively profile, structure, clean, enrich, and pipeline data
+  for analytics and machine learning. Founded in 2012 and spun out of Stanford/Berkeley
+  research (backed by DCVC), Trifacta was acquired by Alteryx in early 2022 and the
+  product is now marketed as Designer Cloud powered by Trifacta (and underpins Google
+  Cloud Dataprep). Trifacta exposes a REST API across its product editions — Google
+  Cloud Dataprep, Designer Cloud (SaaS), and self-managed Enterprise — for managing
+  flows, wrangled recipes, datasets, jobs, and connections, along with a first-party
+  Python SDK for automating data-preparation workflows.
 url: https://raw.githubusercontent.com/api-evangelist/trifacta/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://api.trifacta.com/doc-logo.d2480004.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - dcvc
+x-status: acquired
+x-successor: Alteryx Designer Cloud
+x-acquired-by: alteryx
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-apis: []
+- Data Preparation
+- Data Wrangling
+- Data Engineering
+- ETL
+- Analytics
+- Machine Learning
+- Data Quality
+apis:
+- name: Trifacta REST API
+  description: >-
+    REST API for Designer Cloud powered by Trifacta, exposing flows, wrangled recipes,
+    imported/output datasets, jobs (jobGroups), connections, and deployment resources
+    across the Google Cloud Dataprep, Designer Cloud SaaS, and self-managed Enterprise
+    editions. Authenticated with a personal API access token issued from the Trifacta
+    application.
+  humanURL: https://api.trifacta.com/
+  baseURL: https://api.trifacta.com
+  tags:
+  - Data Preparation
+  - Data Wrangling
+  - REST
+  properties:
+  - type: APIReference
+    url: https://api.trifacta.com/
+  - type: Documentation
+    url: https://docs.trifacta.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: TrustCenter
+  url: security/trifacta-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/trifacta-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.alteryx.com/trust
+- type: Compliance
+  url: https://trust.alteryx.com/
+- type: Website
+  url: https://www.alteryx.com/about-us/trifacta-is-now-alteryx-designer-cloud
+- type: Documentation
+  url: https://docs.trifacta.com/
+- type: APIReference
+  url: https://api.trifacta.com/
+- type: PrivacyPolicy
+  url: https://www.trifacta.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.trifacta.com/terms-conditions/
+- type: Packages
+  url: packages/trifacta-packages.yml
+- type: SDKs
+  url: packages/trifacta-packages.yml
+- type: LLMsTxt
+  url: llms/trifacta-llms.txt
+- type: Lifecycle
+  url: lifecycle/trifacta-lifecycle.yml
+- type: DomainSecurity
+  url: security/trifacta-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 7
+  pass: local-v1
