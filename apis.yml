@@ -53,7 +53,7 @@ tags:
 - Data Engineering
 - ETL
 - Analytics
-- Machine-Learning
+- Machine Learning
 - Data Quality
 tags_raw:
 - Company
@@ -64,6 +64,7 @@ tags_raw:
 - Analytics
 - Machine Learning
 - Data Quality
+- Machine-Learning
 apis:
 - name: Trifacta REST API
   description: >-
